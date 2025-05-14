@@ -20,7 +20,7 @@ const apiSettings = {
   },
   data: {
     tableName: 's_kpi_cvd_risk',
-    year: '2568',
+    year: '2560',
     province: '51', // lamphun province code
     type: 'json',
   },

@@ -1,0 +1,25 @@
+{
+  "name": "moph-opendata-fetcher",
+  "version": "1.0.0",
+  "description": "ระบบข้อมูลเพื่อตอบสนอง Service Plan สาขาโรคไม่ติดต่อ (NCD DM,HT,CVD)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zackieanalyzt/moph-opendata-fetcher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zackieanalyzt/moph-opendata-fetcher/issues"
+  },
+  "homepage": "https://github.com/zackieanalyzt/moph-opendata-fetcher#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "pg": "^8.16.0",
+    "uuid": "^11.1.0"
+  }
+}

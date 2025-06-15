@@ -4,10 +4,10 @@ const { v4: uuidv4 } = require('uuid');
 
 // PostgreSQL connection configuration
 const pool = new Pool({
-  user: 'postgres',
-  host: '192.168.100.70',
-  database: 'databank',
-  password: 'grespost',
+  user: 'youruser',
+  host: '192.168.100.170',
+  database: 'yourdatabase',
+  password: 'yourpassword',
   port: 5432,
 });
 
@@ -21,7 +21,7 @@ const apiSettings = {
   data: {
     tableName: 's_kpi_cvd_risk',
     year: '2560',
-    province: '51', // lamphun province code
+    province: '40', // Khonkaen province code
     type: 'json',
   },
 };
